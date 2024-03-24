@@ -41,7 +41,7 @@ convertBtn.addEventListener("click", function () {
 console.log(allConvert(20).feet)
 console.log(typeof (allConvert(20).feet))
 console.log(typeof (allConvert(20).feet - 5))
-console.log(typeof (21))
+// console.log(typeof (21))
 
 
 
