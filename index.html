@@ -1,0 +1,29 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css" id="theme">
+    </head>
+    <body>
+        <div id="header-container">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input id="unit-input" placeholder="0"></input>
+            <br>
+            <button id="convert-btn">Convert</button>
+            <br>
+            <button id="theme-btn">toggle dark mode</button>
+        </div>
+        <div class="result-section">
+            <div class="unit-display-container" id="length-display">
+                <h3> Length (Meter/Feet) </h3>
+                <p id="length-text">waiting for input</p>
+            </div>
+            <div class="unit-display-container" id="volume-display">
+                <h3> Volume (Liters/Gallons) </h3>
+                <p id="volume-text">waiting for input</p>
+            </div>
+            <div class="unit-display-container" id="mass-display">
+                <h3> Mass (Kilograms/Pounds) </h3>
+                <p id="mass-text">waiting for input</p>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
